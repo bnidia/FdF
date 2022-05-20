@@ -1,0 +1,10 @@
+/cmake-build-debug/
+/.vscode/
+/.idea/
+*.out
+*.o
+*.d
+*.a
+*.txt
+*.sh
+*.tgz
