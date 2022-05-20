@@ -5,3 +5,13 @@ This is the first project in which we use an external graphics library so that w
 
 ### Этот проект посвящен представлению ландшафта в виде 3D-объекта, в котором все поверхности очерчены линиями.
 Это первый проект в котором мы используем внешнюю графическую библиотеку для того чтобы мы могли открывать карты специального формата и выводить их на экран. Здесь необходимо было разобраться с формулами, которые отвечают за вращение фигур плоскости
+
+### How to build and run
+Download to your computer, go to the directory FdF, compile with make and then run.
+Differrent maps can be found in maps directory. 
+```
+git clone https://github.com/bnidia/FdF.git
+cd FdF
+make
+./fdf ./maps/mars.fdf
+```
