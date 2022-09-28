@@ -18,3 +18,9 @@ cd FdF
 make
 ./fdf ./maps/mars.fdf
 ```
+if you have error
+configure [error] : Can't find a suitable X11 include directory.
+
+please install
+
+sudo apt install libxext-dev
